@@ -3,7 +3,7 @@ This project is done for CS247-Advanced Data Mining CourseWork at UCLA. The Ligh
 
 # Download Netflix Dataset
 
-# Run LightGCN on Baselines
+## Run LightGCN on Baselines
 1. Please download the Zip folder to your Google drive and unzip it. Parallely, it can also be cloned to local machine using the following command:
 ```bash
 git clone https://github.com/fzbuzz/CS247-LightGCN-for-Netflix.git
@@ -22,7 +22,7 @@ Run every cell until above "!python main.py --decay=1e-4 --lr=0.001 --layer=4 --
 %cd code
 /content/drive/Shareddrives/CS247/LightGCN-PyTorch-master/code
 ```
-# Run LightGCN on Netflix Dataset
+## Run LightGCN on Netflix Dataset
 
 5. After navigating to the 'code' folder using a command line from the Google colab notebook, run the following command:
 ```bash
