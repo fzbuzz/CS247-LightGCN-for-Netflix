@@ -1,7 +1,7 @@
 # CS247-LightGCN-for-Netflix
 This project is done for CS247-Advanced Data Mining CourseWork at UCLA. The LightGCN model is experimented on three existing datasets and we build an Adaptive LightGCN model to use on Gowalla, Amazon-Book and Yelp2018. Furthermore, the LightGCN and Adaptive Light GCN model was also tested on Netflix dataset. Netflix dataset available was an explicit feedback form which required pre-processing techniques as well.
 
-# Download Netflix Dataset
+## Download Netflix Dataset
 
 ## Run LightGCN on Baselines
 1. Please download the Zip folder to your Google drive and unzip it. Parallely, it can also be cloned to local machine using the following command:
