@@ -26,7 +26,8 @@ Run every cell until above "!python main.py --decay=1e-4 --lr=0.001 --layer=4 --
 
 5. After navigating to the 'code' folder using a command line from the Google colab notebook, run the following command:
 ```bash
-!python main.py --decay=1e-4 --lr=0.001 --layer=4 --seed=2020 --dataset="netflix" --topks="[20]" --recdim=64 --model="mod_lgn" --epochs=1000"
+!python main.py --decay=1e-4 --lr=0.001 --layer=4 --seed=2020 --dataset="netflix" --topks="[20]" --recdim=64 
+--model="mod_lgn" --epochs=1000
 ```
 
 6. The above command can be changed for different datasets by modifying the arguments, epochs, etc. The --model parameter specifies if we are using the existing LGCN model or the modified version of LGCN model. While the existing one is "lgn", the modified one is "mod_lgn". Additionally, the --datasets can be modified to "gowalla", etc. if needed.
